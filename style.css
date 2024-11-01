@@ -1,0 +1,57 @@
+ /* Style the list */
+ul.tabdesignbs {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+	height:50px;
+    overflow: hidden;
+    background-color: #433a3b;
+}
+
+/* Float the list items side by side */
+ul.tabdesignbs li {float: left;}
+
+/* Style the links inside the list items */
+ul.tabdesignbs li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+	color:#FFFFFF;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+/* Change background color of links on hover */
+ul.tabdesignbs li a:hover {background-color: #433a3b;
+border-bottom:4px #e96656 solid;}
+
+/* Create an active/current tablink class */
+ul.tabdesignbs li a:focus, .active {border-bottom:4px #e96656 solid;}
+
+/* Style the tab content */
+.tabdesignbscontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+.tabdesignbsimg{
+border-radius: 50%;
+border: 4px #e96656 solid;
+}
+
+.deletebody:focus ~ .hidebody {
+  display: none;
+}
+
+.deleteheader:focus ~ .hideheader {
+  display: none;
+}
+
+.deletelogo:focus ~ .hidelogo {
+  display: none;
+}
+
+#background-product-images .inside #background_images_container{}#background-product-images .inside #background_images_container ul{margin:0;padding:0}#background-product-images .inside #background_images_container ul:after,#background-product-images .inside #background_images_container ul:before{content:" ";display:table}#background-product-images .inside #background_images_container ul:after{clear:both}#background-product-images .inside #background_images_container ul li.add,#background-product-images .inside #background_images_container ul li.image,#background-product-images .inside #background_images_container ul li.wc-metabox-sortable-placeholder{width:80px;float:left;cursor:move;border:1px solid #d5d5d5;margin:9px 9px 0 0;background:#f7f7f7;border-radius:2px;position:relative;box-sizing:border-box}#background-product-images .inside #background_images_container ul li.add img,#background-product-images .inside #background_images_container ul li.image img,#background-product-images .inside #background_images_container ul li.wc-metabox-sortable-placeholder img{width:100%;height:auto;display:block}#background-product-images .inside #background_images_container ul li.wc-metabox-sortable-placeholder{border:3px dashed #ddd;position:relative}#background-product-images .inside #background_images_container ul li.wc-metabox-sortable-placeholder:after{font-family:Dashicons;speak:none;font-weight:400;font-variant:normal;text-transform:none;-webkit-font-smoothing:antialiased;margin:0;text-indent:0;position:absolute;top:0;left:0;width:100%;height:100%;text-align:center;content:"?";font-size:2.618em;line-height:72px;color:#ddd}#background-product-images .inside #background_images_container ul ul.actions{position:absolute;top:-8px;right:-8px;padding:2px;display:none}#background-product-images .inside #background_images_container ul ul.actions li{float:right;margin:0 0 0 2px}#background-product-images .inside #background_images_container ul ul.actions li a{width:1em;margin:0;height:0;display:block;overflow:hidden}#background-product-images .inside #background_images_container ul ul.actions li a.tips{cursor:pointer}#background-product-images .inside #background_images_container ul ul.actions li a.delete{display:block;text-indent:-9999px;position:relative;height:1em;width:1em;font-size:1.4em}#background-product-images .inside #background_images_container ul ul.actions li a.delete:before{font-family:Dashicons;speak:none;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;margin:0;text-indent:0;position:absolute;top:0;left:0;width:100%;height:100%;text-align:center;content:"?";color:#999}#background-product-images .inside #background_images_container ul ul.actions li a.delete:hover:before{color:#a00}#background-product-images .inside #background_images_container ul li:hover ul.actions{display:block}
